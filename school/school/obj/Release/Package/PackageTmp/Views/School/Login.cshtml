@@ -1,0 +1,56 @@
+﻿
+@{
+    Layout = null;
+   
+}
+<
+<!DOCTYPE html>
+
+<html>
+
+<head lang="en">
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="UTF-8">
+    <title>系统登录 - 超市账单管理系统</title>
+    <link rel="stylesheet" href="~/css/public.css" />
+    <link rel="stylesheet" href="~/css/styl.css" />
+    <script src="~/scripts/jquery.js"></script>
+    <script src="~/scripts/js.js"></script>
+</head>
+<body class="login_bg">
+    <section class="loginBox">
+        <header class="loginHeader">
+            <h1>xx学校管理系统</h1>
+        </header>
+        <section class="loginCont">
+            <form action="loginabc" method="post">
+                @*@using (Html.BeginForm("abc", "School", FormMethod.Post))
+                {*@
+               
+                    <div class="loginForm">
+                        <div class="inputbox">
+                            <label for="user">用户名：</label>
+                            <input id="username" type="text" name="username" value="@school.Controllers.CookieHelper.Read("username")" placeholder="请输入用户名" required />
+                        </div>
+                        <div class="inputbox">
+                            <label for="mima">密码：</label>
+                            <input id="password" type="password" name="password" u value="@school.Controllers.CookieHelper.Read("userpassword")" placeholder="请输入密码" required />
+                            @*<input type="checkbox" id="cookie" name="cookie" value="true" /> 记住我*@
+                        </div>
+                        <div class="subBtn">
+                            <input type="submit" value="登录" />
+                            <input type="reset" value="重置" />
+                         
+                        </div>
+                    </div>
+                @*}*@
+            </form>
+        </section>
+    </section>
+
+</body>
+
+</html>
+
+
+

@@ -1,0 +1,17 @@
+d:\超进化中控\CenterControl\bin\Release\CenterControl.exe.config
+d:\超进化中控\CenterControl\bin\Release\CenterControl.exe
+d:\超进化中控\CenterControl\bin\Release\CenterControl.pdb
+d:\超进化中控\CenterControl\obj\Release\CenterControl.MainForm.resources
+d:\超进化中控\CenterControl\obj\Release\CenterControl.Properties.Resources.resources
+d:\超进化中控\CenterControl\obj\Release\CenterControl.csproj.GenerateResource.Cache
+d:\超进化中控\CenterControl\obj\Release\CenterControl.exe
+d:\超进化中控\CenterControl\obj\Release\CenterControl.pdb
+I:\超进化中控\CenterControl\bin\Release\CenterControl.exe.config
+I:\超进化中控\CenterControl\obj\Release\CenterControl.exe
+I:\超进化中控\CenterControl\obj\Release\CenterControl.pdb
+C:\Users\LX\Desktop\超进化中控\CenterControl\bin\Release\CenterControl.exe.config
+C:\Users\LX\Desktop\超进化中控\CenterControl\obj\Release\CenterControl.exe
+C:\Users\LX\Desktop\超进化中控\CenterControl\obj\Release\CenterControl.pdb
+F:\老吴\.net mvc\超进化中控\CenterControl\bin\Release\CenterControl.exe.config
+F:\老吴\.net mvc\超进化中控\CenterControl\obj\Release\CenterControl.exe
+F:\老吴\.net mvc\超进化中控\CenterControl\obj\Release\CenterControl.pdb

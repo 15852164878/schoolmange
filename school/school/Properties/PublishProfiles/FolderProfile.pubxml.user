@@ -1,0 +1,654 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\test</_PublishTargetUrl>
+    <History>True|2023-07-24T12:22:49.7700071Z;True|2023-07-24T20:19:08.6442431+08:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>05/18/2020 08:42:56</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>05/18/2020 08:42:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>05/18/2020 08:42:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>05/18/2020 08:42:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>05/18/2020 08:42:53</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>05/18/2020 08:42:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>05/18/2020 08:42:55</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>05/18/2020 08:42:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>05/18/2020 08:42:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/18/2020 08:42:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>05/18/2020 08:42:41</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/25/2022 09:58:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/18/2020 08:42:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/18/2020 08:42:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/18/2020 08:42:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/18/2020 08:42:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/18/2020 08:42:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/18/2020 08:42:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/18/2020 08:42:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/18/2020 08:42:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/18/2020 08:42:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/18/2020 08:42:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/18/2020 08:42:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/18/2020 08:42:42</publishTime>
+    </File>
+    <File Include="bin/school.dll">
+      <publishTime>07/24/2023 20:19:04</publishTime>
+    </File>
+    <File Include="bin/school.pdb">
+      <publishTime>07/24/2023 20:19:04</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>03/25/2022 09:58:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>05/18/2020 08:42:41</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>11/28/2018 13:01:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>11/28/2018 13:02:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>05/18/2020 08:42:41</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>05/18/2020 08:42:41</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>05/18/2020 08:42:41</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>05/18/2020 08:42:41</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>05/18/2020 08:42:41</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Net.Http.Formatting.resources.dll">
+      <publishTime>11/29/2018 13:26:02</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.resources.dll">
+      <publishTime>11/29/2018 13:26:30</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.WebHost.resources.dll">
+      <publishTime>11/29/2018 13:28:20</publishTime>
+    </File>
+    <File Include="css/public.css">
+      <publishTime>05/18/2020 11:21:05</publishTime>
+    </File>
+    <File Include="css/styl.css">
+      <publishTime>06/15/2020 13:45:00</publishTime>
+    </File>
+    <File Include="css/umeditor.css">
+      <publishTime>06/01/2020 15:00:09</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/18/2020 08:42:40</publishTime>
+    </File>
+    <File Include="images/addimage.png">
+      <publishTime>06/03/2020 08:37:47</publishTime>
+    </File>
+    <File Include="images/alldeletebtnhoverskin.png">
+      <publishTime>06/03/2020 08:37:47</publishTime>
+    </File>
+    <File Include="images/alldeletebtnupskin.png">
+      <publishTime>06/03/2020 08:37:47</publishTime>
+    </File>
+    <File Include="images/background.png">
+      <publishTime>06/03/2020 08:37:47</publishTime>
+    </File>
+    <File Include="images/button.png">
+      <publishTime>06/03/2020 08:37:47</publishTime>
+    </File>
+    <File Include="images/buy.png">
+      <publishTime>05/18/2020 11:15:18</publishTime>
+    </File>
+    <File Include="images/buy1.png">
+      <publishTime>05/18/2020 11:15:18</publishTime>
+    </File>
+    <File Include="images/caret.png">
+      <publishTime>06/01/2020 15:02:16</publishTime>
+    </File>
+    <File Include="images/clock.jpg">
+      <publishTime>05/18/2020 11:15:18</publishTime>
+    </File>
+    <File Include="images/close.png">
+      <publishTime>06/01/2020 15:02:16</publishTime>
+    </File>
+    <File Include="images/copy.png">
+      <publishTime>06/01/2020 15:05:46</publishTime>
+    </File>
+    <File Include="images/deletedisable.png">
+      <publishTime>06/03/2020 08:37:55</publishTime>
+    </File>
+    <File Include="images/deleteenable.png">
+      <publishTime>06/03/2020 08:37:55</publishTime>
+    </File>
+    <File Include="images/formBg.png">
+      <publishTime>05/18/2020 11:15:18</publishTime>
+    </File>
+    <File Include="images/gys.png">
+      <publishTime>05/18/2020 11:15:18</publishTime>
+    </File>
+    <File Include="images/home.png">
+      <publishTime>05/18/2020 11:15:18</publishTime>
+    </File>
+    <File Include="images/icons.gif">
+      <publishTime>06/01/2020 15:02:16</publishTime>
+    </File>
+    <File Include="images/icons.png">
+      <publishTime>06/01/2020 15:02:16</publishTime>
+    </File>
+    <File Include="images/imglabel.png">
+      <publishTime>06/01/2020 15:05:46</publishTime>
+    </File>
+    <File Include="images/leftBg.png">
+      <publishTime>05/18/2020 11:15:18</publishTime>
+    </File>
+    <File Include="images/listbackground.png">
+      <publishTime>06/03/2020 08:37:55</publishTime>
+    </File>
+    <File Include="images/localimage.png">
+      <publishTime>06/01/2020 15:05:46</publishTime>
+    </File>
+    <File Include="images/loginBg.jpg">
+      <publishTime>05/18/2020 11:15:18</publishTime>
+    </File>
+    <File Include="images/login_bg.jpg">
+      <publishTime>05/18/2020 11:15:18</publishTime>
+    </File>
+    <File Include="images/login_img.png">
+      <publishTime>05/18/2020 11:15:18</publishTime>
+    </File>
+    <File Include="images/mm.png">
+      <publishTime>05/18/2020 11:15:18</publishTime>
+    </File>
+    <File Include="images/music.png">
+      <publishTime>06/01/2020 15:05:46</publishTime>
+    </File>
+    <File Include="images/ok.gif">
+      <publishTime>06/01/2020 15:02:16</publishTime>
+    </File>
+    <File Include="images/pop-bg.png">
+      <publishTime>06/01/2020 15:02:16</publishTime>
+    </File>
+    <File Include="images/read.png">
+      <publishTime>05/18/2020 11:15:18</publishTime>
+    </File>
+    <File Include="images/rotateleftdisable.png">
+      <publishTime>06/03/2020 08:37:55</publishTime>
+    </File>
+    <File Include="images/rotateleftenable.png">
+      <publishTime>06/03/2020 08:37:55</publishTime>
+    </File>
+    <File Include="images/rotaterightdisable.png">
+      <publishTime>06/03/2020 08:37:55</publishTime>
+    </File>
+    <File Include="images/rotaterightenable.png">
+      <publishTime>06/03/2020 08:37:56</publishTime>
+    </File>
+    <File Include="images/schu.png">
+      <publishTime>05/18/2020 11:15:18</publishTime>
+    </File>
+    <File Include="images/search.png">
+      <publishTime>05/18/2020 11:15:18</publishTime>
+    </File>
+    <File Include="images/spacer.gif">
+      <publishTime>06/01/2020 15:02:16</publishTime>
+    </File>
+    <File Include="images/tc.png">
+      <publishTime>05/18/2020 11:15:18</publishTime>
+    </File>
+    <File Include="images/tianjia.png">
+      <publishTime>05/18/2020 11:15:18</publishTime>
+    </File>
+    <File Include="images/time.png">
+      <publishTime>05/18/2020 11:15:18</publishTime>
+    </File>
+    <File Include="images/upload.png">
+      <publishTime>06/01/2020 15:05:46</publishTime>
+    </File>
+    <File Include="images/upload1.png">
+      <publishTime>06/03/2020 08:38:16</publishTime>
+    </File>
+    <File Include="images/upload2.png">
+      <publishTime>06/03/2020 08:38:16</publishTime>
+    </File>
+    <File Include="images/videologo.gif">
+      <publishTime>06/01/2020 15:02:16</publishTime>
+    </File>
+    <File Include="images/xiugai.png">
+      <publishTime>05/18/2020 11:15:18</publishTime>
+    </File>
+    <File Include="images/yh.png">
+      <publishTime>05/18/2020 11:15:18</publishTime>
+    </File>
+    <File Include="images/zd.png">
+      <publishTime>05/18/2020 11:15:18</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>07/24/2023 19:13:32</publishTime>
+    </File>
+    <File Include="scripts/ai.0.15.0-build58334.js">
+      <publishTime>05/18/2020 08:42:57</publishTime>
+    </File>
+    <File Include="scripts/ai.0.15.0-build58334.min.js">
+      <publishTime>05/18/2020 08:42:57</publishTime>
+    </File>
+    <File Include="scripts/cookie.js">
+      <publishTime>05/27/2020 08:37:03</publishTime>
+    </File>
+    <File Include="scripts/jquery.js">
+      <publishTime>05/18/2020 11:16:49</publishTime>
+    </File>
+    <File Include="scripts/jquery.min.js">
+      <publishTime>06/01/2020 13:42:17</publishTime>
+    </File>
+    <File Include="scripts/js.js">
+      <publishTime>05/18/2020 11:16:49</publishTime>
+    </File>
+    <File Include="scripts/time.js">
+      <publishTime>06/08/2020 11:02:06</publishTime>
+    </File>
+    <File Include="scripts/ueditor.all.min.js">
+      <publishTime>06/01/2020 10:22:24</publishTime>
+    </File>
+    <File Include="scripts/umeditor.config.js">
+      <publishTime>06/01/2020 14:48:21</publishTime>
+    </File>
+    <File Include="scripts/umeditor.min.js">
+      <publishTime>06/01/2020 14:50:20</publishTime>
+    </File>
+    <File Include="scripts/zh-cn.js">
+      <publishTime>06/01/2020 13:47:59</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/emotion/emotion.css">
+      <publishTime>06/15/2020 11:55:46</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/emotion/emotion.js">
+      <publishTime>06/15/2020 11:55:47</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/emotion/images/0.gif">
+      <publishTime>06/15/2020 11:55:51</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/emotion/images/bface.gif">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/emotion/images/cface.gif">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/emotion/images/fface.gif">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/emotion/images/jxface2.gif">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/emotion/images/neweditor-tab-bg.png">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/emotion/images/tface.gif">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/emotion/images/wface.gif">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/emotion/images/yface.gif">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/formula/formula.css">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/formula/formula.html">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/formula/formula.js">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/formula/images/formula.png">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/image/image.css">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/image/image.js">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/image/images/close.png">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/image/images/upload1.png">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/image/images/upload2.png">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/link/link.js">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/map/map.html">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/map/map.js">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/video/images/center_focus.jpg">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/video/images/left_focus.jpg">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/video/images/none_focus.jpg">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/video/images/right_focus.jpg">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/video/video.css">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/dialogs/video/video.js">
+      <publishTime>06/15/2020 11:55:53</publishTime>
+    </File>
+    <File Include="umeditor/index.html">
+      <publishTime>06/15/2020 11:55:30</publishTime>
+    </File>
+    <File Include="umeditor/lang/en/en.js">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/en/images/addimage.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/en/images/alldeletebtnhoverskin.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/en/images/alldeletebtnupskin.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/en/images/background.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/en/images/button.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/en/images/copy.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/en/images/deletedisable.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/en/images/deleteenable.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/en/images/imglabel.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/en/images/listbackground.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/en/images/localimage.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/en/images/music.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/en/images/rotateleftdisable.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/en/images/rotateleftenable.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/en/images/rotaterightdisable.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/en/images/rotaterightenable.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/en/images/upload.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/zh-cn/images/copy.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/zh-cn/images/imglabel.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/zh-cn/images/localimage.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/zh-cn/images/music.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/zh-cn/images/upload.png">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/lang/zh-cn/zh-cn.js">
+      <publishTime>06/15/2020 11:56:59</publishTime>
+    </File>
+    <File Include="umeditor/net/getContent.ashx">
+      <publishTime>06/15/2020 11:57:18</publishTime>
+    </File>
+    <File Include="umeditor/net/imageUp.ashx">
+      <publishTime>06/15/2020 11:57:18</publishTime>
+    </File>
+    <File Include="umeditor/themes/default/css/umeditor.css">
+      <publishTime>06/15/2020 11:57:36</publishTime>
+    </File>
+    <File Include="umeditor/themes/default/css/umeditor.min.css">
+      <publishTime>06/15/2020 11:57:36</publishTime>
+    </File>
+    <File Include="umeditor/themes/default/images/caret.png">
+      <publishTime>06/15/2020 11:57:36</publishTime>
+    </File>
+    <File Include="umeditor/themes/default/images/close.png">
+      <publishTime>06/15/2020 11:57:36</publishTime>
+    </File>
+    <File Include="umeditor/themes/default/images/icons.gif">
+      <publishTime>06/15/2020 11:57:36</publishTime>
+    </File>
+    <File Include="umeditor/themes/default/images/icons.png">
+      <publishTime>06/15/2020 11:57:36</publishTime>
+    </File>
+    <File Include="umeditor/themes/default/images/ok.gif">
+      <publishTime>06/15/2020 11:57:36</publishTime>
+    </File>
+    <File Include="umeditor/themes/default/images/pop-bg.png">
+      <publishTime>06/15/2020 11:57:36</publishTime>
+    </File>
+    <File Include="umeditor/themes/default/images/spacer.gif">
+      <publishTime>06/15/2020 11:57:36</publishTime>
+    </File>
+    <File Include="umeditor/themes/default/images/videologo.gif">
+      <publishTime>06/15/2020 11:57:36</publishTime>
+    </File>
+    <File Include="umeditor/third-party/jquery.min.js">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/stixgeneral-bundle/STIXFontLicense2010.txt">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneral-webfont.eot">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneral-webfont.svg">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneral-webfont.ttf">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneral-webfont.woff">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbol-webfont.eot">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbol-webfont.svg">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbol-webfont.ttf">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbol-webfont.woff">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbolita-webfont.eot">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbolita-webfont.svg">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbolita-webfont.ttf">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbolita-webfont.woff">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralitalic-webfont.eot">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralitalic-webfont.svg">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralitalic-webfont.ttf">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralitalic-webfont.woff">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/Symbola.eot">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/Symbola.otf">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/Symbola.svg">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/Symbola.ttf">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/font/Symbola.woff">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/mathquill.css">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/mathquill.js">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/third-party/mathquill/mathquill.min.js">
+      <publishTime>06/15/2020 11:57:54</publishTime>
+    </File>
+    <File Include="umeditor/umeditor.config.js">
+      <publishTime>06/15/2020 11:55:30</publishTime>
+    </File>
+    <File Include="umeditor/umeditor.js">
+      <publishTime>06/15/2020 11:55:30</publishTime>
+    </File>
+    <File Include="umeditor/umeditor.min.js">
+      <publishTime>06/15/2020 11:55:30</publishTime>
+    </File>
+    <File Include="Views/School/billAdd.cshtml">
+      <publishTime>09/09/2020 18:56:19</publishTime>
+    </File>
+    <File Include="Views/School/billList.cshtml">
+      <publishTime>06/22/2020 09:11:20</publishTime>
+    </File>
+    <File Include="Views/School/billUpdate.cshtml">
+      <publishTime>06/21/2020 18:45:51</publishTime>
+    </File>
+    <File Include="Views/School/billView.cshtml">
+      <publishTime>06/15/2020 13:24:46</publishTime>
+    </File>
+    <File Include="Views/School/index.cshtml">
+      <publishTime>06/21/2020 18:45:25</publishTime>
+    </File>
+    <File Include="Views/School/Login.cshtml">
+      <publishTime>06/22/2020 08:33:13</publishTime>
+    </File>
+    <File Include="Views/School/password.cshtml">
+      <publishTime>06/22/2020 08:30:56</publishTime>
+    </File>
+    <File Include="Views/School/providerAdd.cshtml">
+      <publishTime>06/22/2020 08:07:02</publishTime>
+    </File>
+    <File Include="Views/School/providerList.cshtml">
+      <publishTime>06/22/2020 08:45:55</publishTime>
+    </File>
+    <File Include="Views/School/providerUpdate.cshtml">
+      <publishTime>06/15/2020 13:24:46</publishTime>
+    </File>
+    <File Include="Views/School/providerView.cshtml">
+      <publishTime>06/15/2020 13:24:46</publishTime>
+    </File>
+    <File Include="Views/School/publics.cshtml">
+      <publishTime>06/21/2020 18:45:25</publishTime>
+    </File>
+    <File Include="Views/School/userAdd.cshtml">
+      <publishTime>06/22/2020 07:55:41</publishTime>
+    </File>
+    <File Include="Views/School/userList.cshtml">
+      <publishTime>06/22/2020 07:48:52</publishTime>
+    </File>
+    <File Include="Views/School/userUpdate.cshtml">
+      <publishTime>06/15/2020 13:24:45</publishTime>
+    </File>
+    <File Include="Views/School/userView.cshtml">
+      <publishTime>06/15/2020 13:24:44</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>06/16/2020 20:04:42</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/24/2023 20:14:22</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

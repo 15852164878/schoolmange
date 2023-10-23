@@ -1,0 +1,9 @@
+d:\超进化中控\CenterControl\bin\Debug\CenterControl.exe.config
+d:\超进化中控\CenterControl\bin\Debug\CenterControl.exe
+d:\超进化中控\CenterControl\bin\Debug\CenterControl.pdb
+d:\超进化中控\CenterControl\obj\Debug\CenterControl.MainForm.resources
+d:\超进化中控\CenterControl\obj\Debug\CenterControl.Properties.Resources.resources
+d:\超进化中控\CenterControl\obj\Debug\CenterControl.csproj.GenerateResource.Cache
+d:\超进化中控\CenterControl\obj\Debug\CenterControl.exe
+d:\超进化中控\CenterControl\obj\Debug\CenterControl.pdb
+D:\超进化中控\CenterControl\obj\Debug\CenterControl.csprojResolveAssemblyReference.cache

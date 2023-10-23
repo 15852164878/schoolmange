@@ -1,0 +1,164 @@
+﻿
+@{
+    Layout = null;
+}
+
+    <!DOCTYPE html>
+    <html>
+    <head lang="en">
+        <meta name="viewport" content="width=device-width" />
+        <meta charset="UTF-8">
+        <title>xx学校管理系统</title>
+        <link rel="stylesheet" href="~/css/public.css" />
+        <link rel="stylesheet" href="~/css/styl.css" />
+      <style>
+          .h {
+              width:100%;
+              height:35px;/*36px大概是两行的高度，可自己调*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+          }
+      </style>
+        <script>
+         
+            function del(a) {
+                $.ajax(
+                    {
+                        'type': 'post',
+                        'url': '/School/dele',
+                        'data': { stuID: a },
+                        error: function (message) {
+                            alert('成功！');
+                        }
+                    }
+                   );
+            }    
+            
+            function mo(title,colum, source,pubisher,content,date ) {
+                $.ajax(
+                    {
+                        'type': 'post',
+                        'url': '/School/p',
+                        'data': { title: title, colum: colum,soure: source, pubisher: pubisher,content: content,date:date },
+                        error: function (message) {
+                            alert('成功！');
+                        }
+                    }
+                   );
+            }             
+        </script>
+     
+    </head>
+    <body>
+        <!--头部-->
+        <header class="publicHeader">
+            <h1>xx学校管理系统</h1>
+
+            <div class="publicHeaderR">
+                <p><span>下午好！</span><span style="color: #fff21b">@school.Controllers.CookieHelper.Read("username")</span> , 欢迎你！</p>
+                <a href="login">退出</a>
+            </div>
+        </header>
+        <!--时间-->
+        <section class="publicTime">
+            <span id="time">2015年1月1日 11:11  星期一</span>
+            <a href="#">温馨提示：为了能正常浏览，请使用高版本浏览器！（IE10+）</a>
+        </section>
+        <!--主体内容-->
+        <section class="publicMian ">
+            <div class="left">
+                <h2 class="leftH2"><span class="span1"></span>功能列表 <span></span></h2>
+                <nav>
+                    <ul class="list">
+                        <li><a href="billList">栏目管理</a></li>
+                        <li id="active"><a href="providerList">文章管理</a></li>
+                        <li><a href="userList">用户管理</a></li>
+                        <li><a href="password">密码修改</a></li>
+                        <li><a href="login">退出系统</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="right">
+                <div class="location">
+                    <strong>你现在所在的位置是:</strong>
+                    <span>供应商管理页面</span>
+                </div>
+                <div class="search">
+                    <span>文章名称：</span>
+                    <input type="text" placeholder="请输入供应商的名称" />
+                    <input type="button" value="查询" />
+                    <a href="providerAdd">添加文章</a>
+                </div>
+                <!--供应商操作表格-->
+                <table class="providerTable" cellpadding="0" cellspacing="0">
+                    <tr class="firstTr">
+                        <th width="10%">文章id</th>
+                        <th width="10%">文章标题</th>
+                        <th width="10%">栏目</th>
+                        <th width="10%">来源</th>
+                        <th width="10%">作者</th>
+                        <th width="20%">文章内容</th>
+                        <th width="10%">发布时间</th>
+                        <th width="20%" >操作</th>
+                    </tr>
+                    @foreach (var i in ViewBag.Show)
+                    {  
+                    <tr>
+                        <td>@i.aid</td>
+                        <td>@i.titl</td>
+                        <td>@i.colum</td>
+                        <td>@i.source</td>
+                        <td>@i.pubisher</td>
+                        <td class="h">@i.conten</td>
+                        <td>@i.date</td>
+                        <td>
+                            <a href="providerView"><img src="img/read.png" alt="查看" title="查看" onclick="" /></a>
+                            <a href="providerUpdate"><img src="img/xiugai.png" alt="修改" title="修改" onclick="mo('@i.titl', '@i.colum','@i.source','@i.pubisher','@i.pubisher','@i.date')" /></a>
+                            <a href="#" class="removeProvider" @*onclick="del('@i.aid')"*@><img src="img/schu.png" alt="删除" title="删除" /></a>
+                        
+                        </td>
+                        
+
+                    </tr>
+                        ViewBag.t = i.aid;
+
+                    }
+                    
+
+
+                </table>
+                <script>
+                   
+
+                </script>
+            </div>
+        </section>
+        <!--点击删除按钮后弹出的页面-->
+        <div class="zhezhao"></div>
+        <div class="remove" id="removeProv">
+            <div class="removerChid">
+                <h2>提示</h2>
+                <div class="removeMain">
+                    <p>你确定要删除该文章吗？</p>
+                    <a href="providerList" id="yes" onclick="del('@ViewBag.t')"  >确定</a>
+                    <a href="#" id="no" onclick="">取消</a>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="footer"></footer>
+
+        <script src="~/scripts/time.js"></script>
+        <script src="~/scripts/jquery.js"></script>
+        <script src="~/scripts/js.js"></script>
+
+    </body>
+
+</html>
